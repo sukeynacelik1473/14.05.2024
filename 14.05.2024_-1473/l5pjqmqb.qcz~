@@ -1,0 +1,314 @@
+﻿namespace _14._05._2024__1473
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dgwFilmler = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.lblFilmAd = new System.Windows.Forms.Label();
+            this.lblYonetmen = new System.Windows.Forms.Label();
+            this.lblOdul = new System.Windows.Forms.Label();
+            this.lblTur = new System.Windows.Forms.Label();
+            this.lblPuan = new System.Windows.Forms.Label();
+            this.lblSure = new System.Windows.Forms.Label();
+            this.lblYil = new System.Windows.Forms.Label();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwFilmler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(906, 569);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.lblYil);
+            this.tabPage1.Controls.Add(this.lblSure);
+            this.tabPage1.Controls.Add(this.lblPuan);
+            this.tabPage1.Controls.Add(this.lblTur);
+            this.tabPage1.Controls.Add(this.lblOdul);
+            this.tabPage1.Controls.Add(this.lblYonetmen);
+            this.tabPage1.Controls.Add(this.lblFilmAd);
+            this.tabPage1.Controls.Add(this.pictureBox1);
+            this.tabPage1.Controls.Add(this.label17);
+            this.tabPage1.Controls.Add(this.label18);
+            this.tabPage1.Controls.Add(this.label19);
+            this.tabPage1.Controls.Add(this.label20);
+            this.tabPage1.Controls.Add(this.label21);
+            this.tabPage1.Controls.Add(this.label22);
+            this.tabPage1.Controls.Add(this.label23);
+            this.tabPage1.Controls.Add(this.label24);
+            this.tabPage1.Controls.Add(this.dgwFilmler);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(898, 543);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "LİSTELE";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(898, 543);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "GÜNCELE";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(898, 543);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "EKLE";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dgwFilmler
+            // 
+            this.dgwFilmler.AllowUserToAddRows = false;
+            this.dgwFilmler.AllowUserToDeleteRows = false;
+            this.dgwFilmler.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgwFilmler.Location = new System.Drawing.Point(21, 24);
+            this.dgwFilmler.Name = "dgwFilmler";
+            this.dgwFilmler.ReadOnly = true;
+            this.dgwFilmler.Size = new System.Drawing.Size(375, 475);
+            this.dgwFilmler.TabIndex = 0;
+            this.dgwFilmler.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwFilmler_CellContentClick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.pictureBox1.Location = new System.Drawing.Point(705, 92);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(160, 208);
+            this.pictureBox1.TabIndex = 73;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(425, 302);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(53, 13);
+            this.label17.TabIndex = 66;
+            this.label17.Text = "Ödül Film:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(425, 224);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(65, 13);
+            this.label18.TabIndex = 65;
+            this.label18.Text = "IMDB Puan:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(702, 61);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(40, 13);
+            this.label19.TabIndex = 64;
+            this.label19.Text = "Poster:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(425, 185);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(35, 13);
+            this.label20.TabIndex = 63;
+            this.label20.Text = " Süre:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(425, 263);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(29, 13);
+            this.label21.TabIndex = 62;
+            this.label21.Text = " Tür:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(425, 146);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(26, 13);
+            this.label22.TabIndex = 61;
+            this.label22.Text = " Yılı:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(425, 107);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(63, 13);
+            this.label23.TabIndex = 60;
+            this.label23.Text = " Yönetmeni:";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(425, 68);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(46, 13);
+            this.label24.TabIndex = 59;
+            this.label24.Text = "Film Adı:";
+            // 
+            // lblFilmAd
+            // 
+            this.lblFilmAd.AutoSize = true;
+            this.lblFilmAd.Location = new System.Drawing.Point(498, 68);
+            this.lblFilmAd.Name = "lblFilmAd";
+            this.lblFilmAd.Size = new System.Drawing.Size(133, 13);
+            this.lblFilmAd.TabIndex = 75;
+            this.lblFilmAd.Text = "_____________________";
+            // 
+            // lblYonetmen
+            // 
+            this.lblYonetmen.AutoSize = true;
+            this.lblYonetmen.Location = new System.Drawing.Point(498, 107);
+            this.lblYonetmen.Name = "lblYonetmen";
+            this.lblYonetmen.Size = new System.Drawing.Size(133, 13);
+            this.lblYonetmen.TabIndex = 76;
+            this.lblYonetmen.Text = "_____________________";
+            // 
+            // lblOdul
+            // 
+            this.lblOdul.AutoSize = true;
+            this.lblOdul.Location = new System.Drawing.Point(498, 302);
+            this.lblOdul.Name = "lblOdul";
+            this.lblOdul.Size = new System.Drawing.Size(133, 13);
+            this.lblOdul.TabIndex = 77;
+            this.lblOdul.Text = "_____________________";
+            // 
+            // lblTur
+            // 
+            this.lblTur.AutoSize = true;
+            this.lblTur.Location = new System.Drawing.Point(498, 263);
+            this.lblTur.Name = "lblTur";
+            this.lblTur.Size = new System.Drawing.Size(133, 13);
+            this.lblTur.TabIndex = 78;
+            this.lblTur.Text = "_____________________";
+            // 
+            // lblPuan
+            // 
+            this.lblPuan.AutoSize = true;
+            this.lblPuan.Location = new System.Drawing.Point(498, 224);
+            this.lblPuan.Name = "lblPuan";
+            this.lblPuan.Size = new System.Drawing.Size(133, 13);
+            this.lblPuan.TabIndex = 79;
+            this.lblPuan.Text = "_____________________";
+            // 
+            // lblSure
+            // 
+            this.lblSure.AutoSize = true;
+            this.lblSure.Location = new System.Drawing.Point(498, 185);
+            this.lblSure.Name = "lblSure";
+            this.lblSure.Size = new System.Drawing.Size(133, 13);
+            this.lblSure.TabIndex = 80;
+            this.lblSure.Text = "_____________________";
+            // 
+            // lblYil
+            // 
+            this.lblYil.AutoSize = true;
+            this.lblYil.Location = new System.Drawing.Point(498, 146);
+            this.lblYil.Name = "lblYil";
+            this.lblYil.Size = new System.Drawing.Size(133, 13);
+            this.lblYil.TabIndex = 81;
+            this.lblYil.Text = "_____________________";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(967, 611);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgwFilmler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Label lblYil;
+        private System.Windows.Forms.Label lblSure;
+        private System.Windows.Forms.Label lblPuan;
+        private System.Windows.Forms.Label lblTur;
+        private System.Windows.Forms.Label lblOdul;
+        private System.Windows.Forms.Label lblYonetmen;
+        private System.Windows.Forms.Label lblFilmAd;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.DataGridView dgwFilmler;
+        private System.Windows.Forms.TabPage tabPage3;
+    }
+}
+
